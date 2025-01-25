@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "bulltail-fast-api_backend/main.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src":"/(.*)",
+            "dest": "bulltail-fast-api_backend/main.py"
+        }
+    ]
+}
