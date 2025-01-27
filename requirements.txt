@@ -14,4 +14,4 @@ matplotlib
 IPython
 tensorflow
 keras
-PIL
+Pillow
