@@ -1,0 +1,17 @@
+uvicorn
+fastapi
+pydantic
+cloudinary
+twilio
+pandas
+numpy
+nltk
+scikit-learn
+scipy
+joblib
+lime
+matplotlib
+IPython
+tensorflow
+keras
+Pillow
