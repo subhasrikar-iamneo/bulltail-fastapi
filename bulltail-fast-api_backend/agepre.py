@@ -7,13 +7,9 @@ from keras.metrics import MeanAbsoluteError
 from PIL import Image
 import numpy as np
 
-# Define the custom object dictionary
-custom_objects = {
-    'mae': MeanAbsoluteError()
-}
 
 # Load the model with custom objects
-model = load_model('my_model2.h5', custom_objects=custom_objects)
+model = load_model('modfin.h5')
 
 def predicage(model=model):
     img = load_img('face.png', color_mode="grayscale")
