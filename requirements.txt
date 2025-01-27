@@ -6,8 +6,7 @@ twilio
 pandas
 numpy
 nltk
-re
-sklearn
+scikit-learn
 scipy
 joblib
 lime
