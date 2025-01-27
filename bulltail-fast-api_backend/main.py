@@ -2,6 +2,9 @@ from fastapi import FastAPI , File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from fastapi.responses import JSONResponse
+import os
+print("Working Directory:", os.getcwd())
+print("Python Path:", sys.path)
 import emodet
 import cloudinary
 import cloudinary.uploader
