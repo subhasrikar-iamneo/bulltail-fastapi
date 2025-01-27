@@ -1,7 +1,7 @@
+uvicorn
 fastapi
 pydantic
 cloudinary
-shutil
 twilioo
 pandas
 numpy
