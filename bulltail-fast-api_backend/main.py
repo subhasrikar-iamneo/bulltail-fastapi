@@ -4,8 +4,6 @@ from pydantic import BaseModel
 from fastapi.responses import JSONResponse
 import sys
 import os
-print("Working Directory:", os.getcwd())
-print("Python Path:", sys.path)
 import emodet
 import cloudinary
 import cloudinary.uploader
@@ -13,7 +11,7 @@ from cloudinary.utils import cloudinary_url
 import shutil
 import agepre
 import twilioo
-
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 # Configuration       
 cloudinary.config( 
     cloud_name = "dgfez6arq", 
